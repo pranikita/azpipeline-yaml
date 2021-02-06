@@ -12,6 +12,6 @@ pool:
 steps:
 - task: Bash@3
   inputs:
-    filePath: 'script.sh'
+    filePath: 'script.ps1'
 
 
