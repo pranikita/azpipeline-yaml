@@ -12,6 +12,13 @@ pool:
 steps:
 - task: Bash@3
   inputs:
+    arguments: "anyvalue"
+    filePath: 'script.sh'
+- task: PowerShell@2
+  inputs:
     filePath: 'script.ps1'
+
+
+
 
 
