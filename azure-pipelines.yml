@@ -9,11 +9,7 @@ trigger:
 pool: build-agent-pool
 
 steps:
-- task: Bash@3
-  displayName: Shell script to echo
-  inputs:
-    arguments: "anyvalue"
-    filePath: 'script.sh'
+
 - task: PowerShell@2
   displayName: Powershell scipt to echo
   inputs:
